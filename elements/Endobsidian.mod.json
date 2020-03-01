@@ -51,7 +51,7 @@
     },
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "luminance": 1.0,
     "unbreakable": false,
@@ -81,6 +81,9 @@
       },
       {
         "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "Blocks.GRASS"
       }
     ],
     "frequencyPerChunks": 10,

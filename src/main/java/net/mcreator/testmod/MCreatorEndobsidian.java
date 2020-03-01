@@ -61,7 +61,7 @@ public class MCreatorEndobsidian extends Elementstestmod.ModElement {
 		private boolean red = false;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(50f, 30f).lightValue(15).harvestLevel(3)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(50f, 30f).lightValue(15).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("endobsidian");
 		}
@@ -151,6 +151,8 @@ public class MCreatorEndobsidian extends Elementstestmod.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				if (blockAt.getBlock() == Blocks.END_STONE.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
 			}), block.getDefaultState(), 16), Placement.COUNT_RANGE, new CountRangeConfig(10, 0, 0, 114)));
