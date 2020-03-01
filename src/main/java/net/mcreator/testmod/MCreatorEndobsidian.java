@@ -29,6 +29,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.Minecraft;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FallingBlock;
@@ -60,7 +61,7 @@ public class MCreatorEndobsidian extends Elementstestmod.ModElement {
 		private boolean red = false;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(50f, 30f).lightValue(15).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(50f, 30f).lightValue(15).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("endobsidian");
 		}
@@ -81,6 +82,11 @@ public class MCreatorEndobsidian extends Elementstestmod.ModElement {
 		}
 
 		@Override
+		public MaterialColor getMaterialColor(BlockState state, IBlockReader blockAccess, BlockPos pos) {
+			return MaterialColor.OBSIDIAN;
+		}
+
+		@Override
 		public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction direction, IPlantable plantable) {
 			return true;
 		}
@@ -95,7 +101,7 @@ public class MCreatorEndobsidian extends Elementstestmod.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(MCreatorEndobsidian.block, (int) (2)));
+			return Collections.singletonList(new ItemStack(MCreatorEndobsidiancrystal.block, (int) (1)));
 		}
 
 		@OnlyIn(Dist.CLIENT)

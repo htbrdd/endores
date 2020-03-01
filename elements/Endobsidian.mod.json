@@ -31,9 +31,9 @@
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:Endobsidian"
+      "value": "CUSTOM:Endobsidiancrystal"
     },
-    "dropAmount": 2,
+    "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": true,
@@ -45,7 +45,7 @@
     "tickRate": 10,
     "isReplaceable": false,
     "isFlammable": true,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "OBSIDIAN",
     "creativePickItem": {
       "value": ""
     },
@@ -55,7 +55,7 @@
     },
     "luminance": 1.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 3,
     "spawnParticles": true,
     "particleToSpawn": {
       "value": "PORTAL"

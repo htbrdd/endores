@@ -8,12 +8,21 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Endobsidiancrystal",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.testmod.endobsidiancrystal": "Endobsidiancrystal",
       "block.testmod.endobsidian": "Endobsidian"
     }
   },
