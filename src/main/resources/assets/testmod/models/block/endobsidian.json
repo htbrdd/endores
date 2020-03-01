@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testmod:blocks/endobsidianpink",
+    "up": "testmod:blocks/endobsidianpink",
+    "north": "testmod:blocks/endobsidianpink",
+    "east": "testmod:blocks/endobsidianpink",
+    "south": "testmod:blocks/endobsidianpink",
+    "west": "testmod:blocks/endobsidianpink",
+    "particle": "testmod:blocks/endobsidianpink"
+  }
+}
