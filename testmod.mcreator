@@ -30,6 +30,14 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "Endobsidianhelmet",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
