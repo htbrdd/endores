@@ -1,0 +1,47 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "endobsidianhelmet",
+    "enableBody": true,
+    "textureBody": "endobsidianbody",
+    "enableLeggings": true,
+    "textureLeggings": "endobsidianleggings",
+    "enableBoots": true,
+    "textureBoots": "endobsidianboots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "endobsidian",
+    "helmetName": "Endobsidianarmor Helmet",
+    "bodyName": "Endobsidianarmor Body",
+    "leggingsName": "Endobsidianarmor Leggings",
+    "bootsName": "Endobsidianarmor Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 45,
+    "damageValueHelmet": 6,
+    "damageValueBody": 12,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 10,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": "block.anvil.use"
+    },
+    "repairItems": []
+  }
+}

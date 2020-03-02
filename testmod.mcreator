@@ -16,6 +16,20 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Endobsidianarmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
@@ -23,7 +37,11 @@
   "language_map": {
     "en_us": {
       "item.testmod.endobsidiancrystal": "Endobsidiancrystal",
-      "block.testmod.endobsidian": "Endobsidian"
+      "item.testmod.endobsidianarmorhelmet": "Endobsidianarmor Helmet",
+      "item.testmod.endobsidianarmorlegs": "Endobsidianarmor Leggings",
+      "item.testmod.endobsidianarmorbody": "Endobsidianarmor Body",
+      "block.testmod.endobsidian": "Endobsidian",
+      "item.testmod.endobsidianarmorboots": "Endobsidianarmor Boots"
     }
   },
   "workspaceSettings": {
