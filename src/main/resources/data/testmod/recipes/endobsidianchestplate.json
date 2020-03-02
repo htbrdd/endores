@@ -1,0 +1,39 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "testmod:endobsidiancrystal"
+    },
+    "2": {
+      "item": "testmod:endobsidiancrystal"
+    },
+    "3": {
+      "item": "testmod:endobsidiancrystal"
+    },
+    "4": {
+      "item": "testmod:endobsidiancrystal"
+    },
+    "5": {
+      "item": "testmod:endobsidiancrystal"
+    },
+    "6": {
+      "item": "testmod:endobsidiancrystal"
+    },
+    "7": {
+      "item": "testmod:endobsidiancrystal"
+    },
+    "8": {
+      "item": "testmod:endobsidiancrystal"
+    }
+  },
+  "result": {
+    "item": "testmod:endobsidianarmorbody",
+    "count": 1
+  }
+}

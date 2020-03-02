@@ -1,0 +1,26 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "testmod:endobsidiancrystal"
+    },
+    "2": {
+      "item": "testmod:endobsidiancrystal"
+    },
+    "3": {
+      "item": "testmod:endobsidiancrystal"
+    },
+    "5": {
+      "item": "testmod:endobsidiancrystal"
+    }
+  },
+  "result": {
+    "item": "testmod:endobsidianarmorboots",
+    "count": 1
+  }
+}

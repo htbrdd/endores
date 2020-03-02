@@ -1,0 +1,21 @@
+{
+  "_fv": 5,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "endobsidianapple",
+    "customModelName": "Normal",
+    "name": "Endobsidianapple",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 25,
+    "saturation": 1.0,
+    "eatingSpeed": 40,
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}

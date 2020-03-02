@@ -38,6 +38,46 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Endobsidianleggings",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Endobsidianchestplate",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Endobsidianboots",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Endobsidianapple",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Endobsidianapplerecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -45,6 +85,7 @@
   "language_map": {
     "en_us": {
       "item.testmod.endobsidiancrystal": "Endobsidiancrystal",
+      "item.testmod.endobsidianapple": "Endobsidianapple",
       "item.testmod.endobsidianarmorhelmet": "Endobsidianarmor Helmet",
       "item.testmod.endobsidianarmorlegs": "Endobsidianarmor Leggings",
       "item.testmod.endobsidianarmorbody": "Endobsidianarmor Body",
