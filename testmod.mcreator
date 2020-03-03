@@ -20,7 +20,7 @@
     {
       "name": "Endobsidianarmor",
       "type": "armor",
-      "sortid": 3,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -34,7 +34,7 @@
     {
       "name": "Endobsidianhelmet",
       "type": "recipe",
-      "sortid": 4,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -42,7 +42,7 @@
     {
       "name": "Endobsidianleggings",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -50,7 +50,7 @@
     {
       "name": "Endobsidianchestplate",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -58,7 +58,7 @@
     {
       "name": "Endobsidianboots",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -66,7 +66,7 @@
     {
       "name": "Endobsidianapple",
       "type": "food",
-      "sortid": 8,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -74,7 +74,7 @@
     {
       "name": "Endobsidianapplerecipe",
       "type": "recipe",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -82,7 +82,7 @@
     {
       "name": "Endore",
       "type": "tab",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -90,7 +90,7 @@
     {
       "name": "Endobsidiansword",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -98,7 +98,7 @@
     {
       "name": "Endobsidianswords",
       "type": "item",
-      "sortid": 12,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -143,6 +143,7 @@
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

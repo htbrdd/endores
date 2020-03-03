@@ -21,7 +21,7 @@ public class MCreatorEndobsidianswords extends Elementstestmod.ModElement {
 	public static final Item block = null;
 
 	public MCreatorEndobsidianswords(Elementstestmod instance) {
-		super(instance, 12);
+		super(instance, 3);
 	}
 
 	@Override

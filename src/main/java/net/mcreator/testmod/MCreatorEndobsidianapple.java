@@ -15,7 +15,7 @@ public class MCreatorEndobsidianapple extends Elementstestmod.ModElement {
 	public static final Item block = null;
 
 	public MCreatorEndobsidianapple(Elementstestmod instance) {
-		super(instance, 8);
+		super(instance, 5);
 	}
 
 	@Override

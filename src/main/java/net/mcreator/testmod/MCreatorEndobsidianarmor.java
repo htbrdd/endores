@@ -26,7 +26,7 @@ public class MCreatorEndobsidianarmor extends Elementstestmod.ModElement {
 	public static final Item boots = null;
 
 	public MCreatorEndobsidianarmor(Elementstestmod instance) {
-		super(instance, 3);
+		super(instance, 4);
 	}
 
 	@Override

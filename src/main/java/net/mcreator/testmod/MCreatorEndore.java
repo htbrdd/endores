@@ -9,7 +9,7 @@ import net.minecraft.item.ItemGroup;
 @Elementstestmod.ModElement.Tag
 public class MCreatorEndore extends Elementstestmod.ModElement {
 	public MCreatorEndore(Elementstestmod instance) {
-		super(instance, 10);
+		super(instance, 11);
 	}
 
 	@Override
