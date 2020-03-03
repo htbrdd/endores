@@ -1,0 +1,11 @@
+{
+  "_fv": 5,
+  "_type": "tab",
+  "definition": {
+    "name": "Endore",
+    "icon": {
+      "value": "CUSTOM:Endobsidian"
+    },
+    "showSearch": true
+  }
+}

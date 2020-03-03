@@ -78,6 +78,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Endore",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -85,6 +93,7 @@
   "language_map": {
     "en_us": {
       "item.testmod.endobsidiancrystal": "Endobsidiancrystal",
+      "itemGroup.tabendore": "Endore",
       "item.testmod.endobsidianapple": "Endobsidianapple",
       "item.testmod.endobsidianarmorhelmet": "Endobsidianarmor Helmet",
       "item.testmod.endobsidianarmorlegs": "Endobsidianarmor Leggings",

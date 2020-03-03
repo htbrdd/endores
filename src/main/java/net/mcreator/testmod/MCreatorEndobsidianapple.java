@@ -6,7 +6,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 
@@ -26,7 +25,7 @@ public class MCreatorEndobsidianapple extends Elementstestmod.ModElement {
 
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64)
+			super(new Item.Properties().group(MCreatorEndore.tab).maxStackSize(64)
 					.food((new Food.Builder()).hunger(25).saturation(1f).setAlwaysEdible().meat().build()));
 			setRegistryName("endobsidianapple");
 		}
