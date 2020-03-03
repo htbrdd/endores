@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "endobsidiansword",
+    "customModelName": "Normal",
+    "name": "Endobsidianswords",
+    "creativeTab": {
+      "value": "CUSTOM:Endore"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 10,
+    "toolType": 1.5,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "onEntityHitWith": {
+      "name": "EndobsidianswordsMobIsHitWithItem"
+    }
+  }
+}
