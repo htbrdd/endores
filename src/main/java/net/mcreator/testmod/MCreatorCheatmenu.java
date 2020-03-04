@@ -13,13 +13,13 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.World;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.inventory.container.Container;
-import net.minecraft.inventory.Inventory;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
@@ -34,7 +34,6 @@ import java.util.HashMap;
 @Elementstestmod.ModElement.Tag
 public class MCreatorCheatmenu extends Elementstestmod.ModElement {
 	public static HashMap guiinventory = new HashMap();
-	public static IInventory inherited;
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public MCreatorCheatmenu(Elementstestmod instance) {
@@ -83,10 +82,6 @@ public class MCreatorCheatmenu extends Elementstestmod.ModElement {
 		public void initContainer(PlayerInventory inv, IInventory inheritedinv) {
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			if (inheritedinv == null)
-				inherited = new Inventory(64);
-			else
-				inherited = inheritedinv;
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
@@ -246,6 +241,7 @@ public class MCreatorCheatmenu extends Elementstestmod.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
+		private static final ResourceLocation texture = new ResourceLocation("testmod:textures/cheatmenu.png");
 
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
@@ -257,6 +253,10 @@ public class MCreatorCheatmenu extends Elementstestmod.ModElement {
 		@Override
 		protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
 			GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+			Minecraft.getInstance().getTextureManager().bindTexture(texture);
+			int k = (this.width - this.xSize) / 2;
+			int l = (this.height - this.ySize) / 2;
+			this.blit(k, l, 0, 0, this.xSize, this.ySize);
 		}
 
 		@Override
@@ -378,6 +378,10 @@ public class MCreatorCheatmenu extends Elementstestmod.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
 				MCreatorGamemode.executeProcedure($_dependencies);
 			}
 		}

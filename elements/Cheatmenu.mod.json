@@ -5,8 +5,8 @@
     "type": 1,
     "width": 352,
     "height": 332,
-    "renderBgLayer": false,
-    "containerBlock": "Endobsidian",
+    "renderBgLayer": true,
+    "containerBlock": "<none>",
     "components": [
       {
         "type": "button",

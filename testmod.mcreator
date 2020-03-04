@@ -179,6 +179,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -187,6 +203,14 @@
       "name": "Cheatmenu",
       "type": "gui",
       "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Cheatmenukey",
+      "type": "keybind",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -204,6 +228,7 @@
       "advancements.endobsidianbootsget.descr": "Craft End Obsidian Boots",
       "item.testmod.endobsidianarmorhelmet": "Endobsidianarmor Helmet",
       "block.testmod.endobsidian": "Endobsidian",
+      "key.mcreator.cheatmenukey": "Cheatmenukey",
       "advancements.endobsidianleggingsget.title": "Endobsidianleggingsget",
       "itemGroup.tabendore": "Endore",
       "advancements.endobsidianarmorget.descr": "Craft all End Obsidian Armor",
