@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "testmod:endobsidianarmorhelmet"
+    },
+    "title": {
+      "translate": "advancements.endobsidianhelmetget.title"
+    },
+    "description": {
+      "translate": "advancements.endobsidianhelmetget.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "endobsidianhelmetget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "testmod:endobsidianarmorhelmet",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "testmod:endobsidianarmorget"
+}

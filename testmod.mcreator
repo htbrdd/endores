@@ -118,6 +118,54 @@
           }
         ]
       }
+    },
+    {
+      "name": "Endobsidianleggingsget",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Endobsidianbootsget",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Endobsidianchestplateget",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Endobsidianhelmetget",
+      "type": "achievement",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Endobsidianarmorget",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Endobsidianget",
+      "type": "achievement",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -125,14 +173,26 @@
   "language_map": {
     "en_us": {
       "item.testmod.endobsidiancrystal": "Endobsidiancrystal",
-      "itemGroup.tabendore": "Endore",
+      "advancements.endobsidianleggingsget.descr": "Craft End Obsidian Leggings",
       "item.testmod.endobsidianapple": "Endobsidianapple",
       "item.testmod.endobsidianswords": "Endobsidianswords",
+      "advancements.endobsidianarmorget.title": "Endobsidianarmorget",
+      "advancements.endobsidianbootsget.descr": "Craft End Obsidian Boots",
       "item.testmod.endobsidianarmorhelmet": "Endobsidianarmor Helmet",
-      "item.testmod.endobsidianarmorlegs": "Endobsidianarmor Leggings",
-      "item.testmod.endobsidianarmorbody": "Endobsidianarmor Body",
       "block.testmod.endobsidian": "Endobsidian",
-      "item.testmod.endobsidianarmorboots": "Endobsidianarmor Boots"
+      "advancements.endobsidianleggingsget.title": "Endobsidianleggingsget",
+      "itemGroup.tabendore": "Endore",
+      "advancements.endobsidianarmorget.descr": "Craft all End Obsidian Armor",
+      "advancements.endobsidianbootsget.title": "Endobsidianbootsget",
+      "advancements.endobsidianget.descr": "Find End Obsidian and Get A Crystal",
+      "advancements.endobsidianchestplateget.title": "Endobsidianchestplateget",
+      "item.testmod.endobsidianarmorlegs": "Endobsidianarmor Leggings",
+      "advancements.endobsidianhelmetget.title": "Endobsidianhelmetget",
+      "item.testmod.endobsidianarmorbody": "Endobsidianarmor Body",
+      "advancements.endobsidianchestplateget.descr": "Craft End Obsidian Chest Plate",
+      "item.testmod.endobsidianarmorboots": "Endobsidianarmor Boots",
+      "advancements.endobsidianhelmetget.descr": "Craft End Obsidian Helmet",
+      "advancements.endobsidianget.title": "Endobsidiancrystalget"
     }
   },
   "workspaceSettings": {
