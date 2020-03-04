@@ -64,7 +64,7 @@
     "particleSpawningRadious": 0.6000000014901161,
     "particleAmount": 5,
     "particleSpawningCondition": "ALWAYS",
-    "hasInventory": false,
+    "hasInventory": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,

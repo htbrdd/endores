@@ -1,0 +1,28 @@
+{
+  "_fv": 5,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": false,
+    "containerBlock": "Endobsidian",
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Gamemode Survival",
+          "onClick": {
+            "name": "Gamemode"
+          },
+          "width": 340,
+          "height": 40,
+          "name": "Gamemode Survival",
+          "x": 257,
+          "y": 87
+        }
+      }
+    ],
+    "inventories": []
+  }
+}
