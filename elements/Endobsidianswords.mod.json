@@ -22,6 +22,9 @@
     "hasGlow": true,
     "onEntityHitWith": {
       "name": "EndobsidianswordsMobIsHitWithItem"
+    },
+    "onItemInUseTick": {
+      "name": "EndobsidianswordsMobIsHitWithItem"
     }
   }
 }

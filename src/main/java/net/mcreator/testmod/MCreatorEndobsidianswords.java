@@ -11,6 +11,7 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
 import com.google.common.collect.Multimap;
@@ -81,6 +82,19 @@ public class MCreatorEndobsidianswords extends Elementstestmod.ModElement {
 				MCreatorEndobsidianswordsMobIsHitWithItem.executeProcedure($_dependencies);
 			}
 			return true;
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			int x = (int) entity.posX;
+			int y = (int) entity.posY;
+			int z = (int) entity.posZ;
+			if (selected) {
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				MCreatorEndobsidianswordsMobIsHitWithItem.executeProcedure($_dependencies);
+			}
 		}
 	}
 }
